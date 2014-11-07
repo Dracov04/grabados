@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Luis Meca Grabados</title>
+ <!--  <link rel="shortcut icon" href="assets/whatcanido.ico" /> -->
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="fixed">
+		<nav class="top-bar" data-topbar>
+			<ul class="title-area">
+	    		<li class="name">
+	    			<h1><%= link_to "Luis Meca Grabados", controller: "luis", action: "index" %></h1>
+	    		</li>
+	<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    		<li class="toggle-topbar menu-icon"><a><span>Menu</span></a></li>
+			</ul>
+			
+			<section class="top-bar-section">
+	<!-- Left Nav Section -->
+		    	<ul class="left">
+	    			<li class="divider"></li>
+		    		<li>
+		    			<a><%= link_to "Contacto", controller: "luis", action: "contact" %></a>	
+		    		</li>
+		    	</ul>
+		    	<ul class="left">
+	    			<li class="divider"></li>
+		    		<li class="has-dropdown not-click">
+		    			<a>Productos</a>
+		        		<ul class="dropdown">
+		        			<li class="divider"></li>		        				
+        					<li><%= link_to "Emblemas", controller: "trabajos", action: "emblemas" %></li>
+        					<li class="divider"></li>
+        					<li><%= link_to "Placas", controller: "trabajos", action: "placas" %></li>
+        					<li class="divider"></li>
+        					<li><%= link_to "Insignias", controller: "trabajos", action: "insignias" %></li>
+		        		</ul>
+		    		</li>
+		    	</ul>
+		    </div>
+
+
+	<!-- Right Nav Section -->
+		    	<ul class="right">
+		    		
+		    	</ul>
+			</section>
+		</nav>
+
+	<article>
+		<%= yield %>
+	</article>
+	<footer class='text-center'>
+		<p class="footer_text">Luis Meca | Grabados & Co.</p>
+	</footer>
+	<script>$(document).foundation();</script>
+</body>
+</html>
