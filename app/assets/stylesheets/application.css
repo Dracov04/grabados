@@ -45,11 +45,15 @@ table {
     border-spacing: 0;
 }
 
-.song_title a{
-    text-decoration: none;
-    color:rgba(0, 0, 69, 1);
+.principal_page {
+    text-align: center;
 }
-.song_title a:hover{
-    text-decoration: overline underline;
-    color: rgb(58, 38, 122);
+
+.principal_page p {
+    font-size: 25px;
+}
+
+.contact_page {
+    font-size: 25px;
+    margin-left: 20px;
 }
