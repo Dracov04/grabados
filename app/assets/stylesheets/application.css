@@ -56,5 +56,15 @@ table {
 .contact_page {
     font-size: 25px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 57px;
+}
+
+.pictures {
+    display: inline-block;
+}
+
+.pictures div img {
+    display: inline-block;
+    height: 293px;
+    width: 375px;
 }
