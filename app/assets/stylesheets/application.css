@@ -65,6 +65,7 @@ table {
 
 .pictures div img {
     display: inline-block;
+    margin-left: 53px;
     height: 293px;
     width: 375px;
 }
