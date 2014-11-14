@@ -17,9 +17,6 @@ class TrabajosController < ApplicationController
 	def metopas
 		
 	end
-	def placas
-		
-	end
 	def trofeos
 		
 	end
