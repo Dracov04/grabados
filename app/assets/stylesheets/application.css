@@ -70,3 +70,15 @@ table {
     height: 293px;
     width: 400px;
 }
+
+.picturesh div {
+    display: inline-block;
+}
+
+.picturesh div img {
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 37px;
+    height: 293px;
+    width: 260px;
+}
