@@ -12,6 +12,8 @@ get 'heraldica' => 'trabajos#heraldica'
 get 'laminas' => 'trabajos#laminas'
 get 'metopas' => 'trabajos#metopas'
 get 'placas' => 'trabajos#placas'
+get 'placas_homenaje' => 'trabajos#placas_homenaje'
+get 'placas_senalizacion' => 'trabajos#placas_senalizacion'
 get 'trofeos' => 'trabajos#trofeos'
 
   # Example of regular route:

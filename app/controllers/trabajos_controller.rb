@@ -23,4 +23,10 @@ class TrabajosController < ApplicationController
 	def trofeos
 		
 	end
+	def placas_homenaje
+		
+	end
+	def placas_senalizacion
+		
+	end
 end

@@ -43,8 +43,16 @@
         					<li><%= link_to "Láminas", controller: "trabajos", action: "laminas" %></li>
         					<li class="divider"></li>		        				
         					<li><%= link_to "Metopas", controller: "trabajos", action: "metopas" %></li>
-        					<li class="divider"></li>		        				
-        					<li><%= link_to "Placas", controller: "trabajos", action: "placas" %></li>
+        					<li class="divider"></li>
+        					<li class="has-dropdown not-click">	        				
+        						<a><%= link_to "Placas", controller: "trabajos", action: "placas" %></a>
+        						<ul class="dropdown">
+        							<li class="divider"></li>
+        							<li><%= link_to "Homenaje", controller: "trabajos", action: "placas_homenaje" %></li>
+        							<li class="divider"></li>
+        							<li><%= link_to "Señalización", controller: "trabajos", action: "placas_senalizacion" %></li>
+        						</ul>
+        					</li>
         					<li class="divider"></li>		        				
         					<li><%= link_to "Trofeos y pisapapeles", controller: "trabajos", action: "trofeos" %></li>
 		        		</ul>
