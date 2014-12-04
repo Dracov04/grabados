@@ -71,11 +71,45 @@ table {
 
 IMAGES
 
-#b1 {
+BADGES
+#b1 img {
     height: 240px;
     width: 453px;
 }
 
-#b2 {
+#b2 img {
     height: 286px;
+}
+
+CUADROS
+#c1 img {
+    width: 453pxpx;
+}
+#c2 img {
+    width: 340px;
+}
+#c3 img {
+    height: 343px;
+}
+#c4 img {
+    height: 359px;
+}
+#c5 img {
+
+}
+
+EMBLEMAS
+#e1 img{
+
+}
+
+HERALDICA
+#h1 img{
+
+}
+#h2 img{
+    width: 262px;
+}
+#h3 img{
+    height: 404px;
 }
