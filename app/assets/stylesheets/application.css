@@ -121,7 +121,8 @@ table {
     
 }
 #l3 img{
-    
+    margin-bottom: 71px;
+    height: 251px;
 }
 #l4 img{
     
@@ -129,4 +130,40 @@ table {
 #l5 img{
     margin-bottom: 66px;
     height: 261px;
+}
+/*METOPAS*/
+/*PLACAS*/
+#ph1 img{
+
+}
+#ph2 img{
+
+}
+#ph3 img{
+
+}
+#ph4 img{
+
+}
+#ph5 img{
+
+}
+#ph6 img{
+    height: 261px;
+    margin-bottom: 15px;
+}
+#ph7 img{
+
+}
+#ph8 img{
+
+}
+#ph9 img{
+
+}
+#ph10 img{
+
+}
+#ph11 img{
+
 }
