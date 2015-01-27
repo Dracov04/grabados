@@ -6,6 +6,18 @@ body {
     background-color: rgba(255, 155, 62, 0.74);
 }
 
+#text1 {
+    height: 40%;
+    width: 50%;
+    float: left;
+}
+
+#text2 {
+    height: 40%;
+    width: 50%;
+    float: right;
+}
+
 .principal_page {
     text-align: center;
 }
