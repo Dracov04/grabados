@@ -10,12 +10,14 @@ body {
     height: 40%;
     width: 50%;
     float: left;
+    padding: 20px;
 }
 
 #text2 {
     height: 40%;
     width: 35%;
     float: right;
+    padding: 20px;
 }
 
 .principal_page {
@@ -156,7 +158,8 @@ h2 {
     background-color: rgba(255, 180, 111, 1);
     width: 960px;
     margin: 0 auto;
-    padding: 50px 0; 
+    padding: 50px 0;
+    float: both;
 }
 
 #slider { 
