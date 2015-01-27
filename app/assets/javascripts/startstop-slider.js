@@ -24,7 +24,7 @@ function doMove(panelWidth, tooFar) {
 	}
 	else {
 		$(".slide img").animate({
-			"top": -200
+			"top": -2000
 		}, function() {
 			$("#mover").animate({
 				"left": movement
