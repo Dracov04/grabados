@@ -3,6 +3,7 @@
 body {
     line-height: 1;
     margin-top: 45px;
+    background-color: rgba(255, 155, 62, 0.74);
 }
 
 .principal_page {
@@ -30,6 +31,9 @@ body {
 }
 
 /*IMAGES*/
+#principal_image {
+    margin-left: 20%;
+}
 
 /*BADGES*/
 #b1 img {
@@ -137,14 +141,13 @@ h2 {
 }
 
 #page-wrap { 
-    background: white;
+    background-color: rgba(255, 180, 111, 1);
     width: 960px;
     margin: 0 auto;
     padding: 50px 0; 
 }
 
 #slider { 
-    background: white url(../assets/slider-bg.jpg);
     height: 227px;
     overflow: hidden;
     position: relative;
