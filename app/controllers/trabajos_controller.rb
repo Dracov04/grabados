@@ -8,9 +8,6 @@ class TrabajosController < ApplicationController
 	def emblemas
 		
 	end
-	def heraldica
-		
-	end
 	def laminas
 		
 	end
