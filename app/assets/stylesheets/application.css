@@ -57,12 +57,27 @@ body {
 
 /*BADGES*/
 #b1 img {
-    height: 240px;
-    width: 453px;
+    width: 376px;
 }
 
 #b2 img {
-    height: 286px;
+    height: 210px;
+}
+
+#b3 img {
+    width: 350px;
+}
+
+#b4 img {
+    width: 250px;
+}
+
+#b5 img {
+    width: 376px;
+}
+
+#b6 img {
+    width: 376px;
 }
 
 /*CUADROS*/
