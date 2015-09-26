@@ -82,19 +82,32 @@ body {
 
 /*CUADROS*/
 #c1 img {
-    width: 453px;
+    width: 360px;
 }
 #c2 img {
-    width: 340px;
+    height: 269px;
 }
 #c3 img {
-    height: 343px;
+    height: 270px;
 }
 #c4 img {
-    height: 359px;
+    height: 273px;
 }
-#c5 img {
 
+#c5 img {
+    width: 360px;
+}
+
+#c6 img {
+    width: 360px;
+}
+
+#c7 img {
+    width: 360px;
+}
+
+#c8 img {
+    width: 360px;
 }
 
 /*EMBLEMAS*/
