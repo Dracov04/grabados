@@ -329,6 +329,10 @@ body {
 .ps div img{
     height: 255px;
 }
+
+.trofeos div img{
+    height: 326px;
+}
 /*GALERIA*/
 h2 { 
     font-family: Georgia, Serif;
