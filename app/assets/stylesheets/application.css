@@ -322,10 +322,13 @@ body {
 #ph10 img{
 
 }
-#ph11 img{
-
+#ph21 img{
+    width: 365px;
 }
 
+.ps div img{
+    height: 255px;
+}
 /*GALERIA*/
 h2 { 
     font-family: Georgia, Serif;
