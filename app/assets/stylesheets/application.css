@@ -60,6 +60,10 @@ body {
     width: 376px;
 }
 
+#b1p img{
+    height: 200px;
+}
+
 #b2 img {
     height: 210px;
 }
@@ -90,6 +94,9 @@ body {
 #c3 img {
     height: 270px;
 }
+#c3p img{
+    height: 278px;
+}
 #c4 img {
     height: 273px;
 }
@@ -109,6 +116,9 @@ body {
 #c8 img {
     height: 360px;
 }
+#c8p img {
+    height: 301px;
+}
 
 /*EMBLEMAS*/
 #e1 img{
@@ -121,6 +131,9 @@ body {
 
 #e3 img{
     width: 260px;
+}
+#e3p img{
+    height: 320px;
 }
 
 #e4 img{
@@ -225,6 +238,10 @@ body {
 #l9 img{
     height: 375px;
 }
+#l9p img{
+    height: 298px;
+    width: 250px;
+}
 #l10 img{
     height: 375px;
 }
@@ -287,12 +304,19 @@ body {
 #m9 img{
     width: 304px;
 }
+#m36p img{
+    height: 330px;
+}
 /*PLACAS*/
 .ph div img{
     height: 261px;
 }
 #ph1 img{
 
+}
+#ph1p img{
+    height: 257px;
+    width: 301px;
 }
 #ph2 img{
 
@@ -332,6 +356,10 @@ body {
 
 .trofeos div img{
     height: 326px;
+}
+#t1p img{
+    height: 280px;
+    width: 249px;
 }
 /*GALERIA*/
 h2 { 
